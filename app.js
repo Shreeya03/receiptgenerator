@@ -151,7 +151,7 @@ app.get('/gen', async (req, res) => {
         doc.moveDown(4);
         doc.font('Courier-Bold').text("******END OF STATEMENT******",)
     }
-    res.download("Receipt.pdf");
+    res.download("./Receipt.pdf");
 })
 
 
